@@ -1,4 +1,4 @@
-## Functional extensions Javascript/Typescript integrations    
+## Functional C# extensions for Javascript/Typescript integrations    
     
     public static IEnumerable<TResult> Map<TSource, TResult>
         (this IEnumerable<TSource> source, Func<TSource, TResult> map) => source.Select(map);
